@@ -14,9 +14,17 @@
 body {
   font-family: "Arial";
 }
-h1,h2,h3,h4,h5,h6{
-    font-family: "Georgia";
-    font-weight: 400;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Georgia";
+  font-weight: 400;
+}
+.btn {
+  height: 52px;
 }
 
 .container {
@@ -24,10 +32,10 @@ h1,h2,h3,h4,h5,h6{
   margin: 0 auto;
 }
 
-.first__screen{
-    display: flex;
-    flex-direction: column;
-    gap: 60px;
+.first__screen {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
 }
 
 .header__content {
@@ -54,10 +62,17 @@ h2 {
   color: #ffffff;
 }
 
-.logo{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+h3 {
+  font-size: 35px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #545454;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .logo__text {
@@ -86,39 +101,60 @@ a {
 }
 
 .main-page__content {
-    width: 460px;
-    display: flex;
-    flex-direction: column;
-    gap: 42px;
-    margin: 0 40px 75px 0;
-  
+  width: 460px;
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+  margin: 0 40px 75px 0;
 }
 
-.main-page__wrapper{
-    display: flex;
-    align-items: center;
+.main-page__wrapper {
+  display: flex;
+  align-items: center;
 }
 
-.main-page__btn{
-    width: 207px;
-    height: 52px;
-align-items: center;
-border: none;
-background: #F1CDB3;
-border-radius: 100px;
+.main-page__btn {
+  width: 207px;
+  align-items: center;
+  border: none;
+  background: #f1cdb3;
+  border-radius: 100px;
 }
 
-.main-page__btn-text{
- font-family: 'Georgia';
-font-weight: 400;
-font-size: 17px;
-line-height: 130%;
-letter-spacing: 0.06em;
-color: #292929;
+.main-page__btn-text {
+  font-family: "Georgia";
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #292929;
 }
-.main-page__text{
-font-weight: 400;
-font-size: 15px;
-line-height: 160%;
-color: #CDCDCD;
+.main-page__text {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 160%;
+  color: #cdcdcd;
 }
+
+/* section 2 */
+
+.about-shelter__tittle {
+  max-width: 320px;
+}
+
+.about-shelter__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 120px;
+  margin: 80px 0;
+}
+
+.about-shelter__content {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  max-width: 430px;
+}
+
+
